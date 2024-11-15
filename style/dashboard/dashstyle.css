@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     background-image: linear-gradient(23deg, rgb(215, 247, 240) 0%, rgba(126,223,205,1) 100%);
     height: 120vh;
+    overflow: hidden;
     
 }
 .barra-topo{
@@ -18,13 +19,14 @@ body {
 
 .dashboard {
     display: flex; 
-    height: 110vh; 
+    height: 100vh; 
     
 }
 
 .conteudo-principal {
     flex: 3; 
     padding: 40px;
+    height: 87.3vh;
     background-color: #f4f4f400;
 }
 
@@ -47,9 +49,8 @@ body {
     flex: 30; 
     padding: 20px;
     background-color: transparent;
-    height: 95vh;
+    height: 100vh;
     box-sizing: border-box;
-    justify-content: space-between;
     justify-items: center;
     flex-direction: column;
     overflow:hidden;
@@ -70,7 +71,7 @@ body {
     background-color: #ffffff41;
     border-radius: 15px;
     padding: 45px;
-    height: 100vh;
+    height: 90vh;
     flex-direction: column;
     justify-items: center;
     overflow: hidden;
@@ -81,9 +82,10 @@ body {
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.377);
     border: 0;
-    margin-top: 0.7em;
-    
-    
+    margin-top: 0.7em;  
+}
+.card-listas{
+    height: 70vh;
 }
 .card-tarefa{
     display: flex;
@@ -123,7 +125,7 @@ button{
     border-radius: 15px;
 }
 .conf-btn {
-    border: 0;
+    border: 12;
     border-radius: 15px;
     font-size: 20px;
     padding: 10px 0px;
@@ -135,7 +137,7 @@ button{
     display:inline-block;
 }
 .conf-btn:hover {
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: rgba(124, 124, 124, 0.514);
 }
 
 
@@ -145,7 +147,7 @@ button{
     left: 50%;
     width: 30em;
     height: 23em;
-    background-color: #8b8b8b7e;
+    background-color: rgba(255, 255, 255, 0.733);
     color: rgb(0, 0, 0);
     padding-top: 60px;
     transform: translate(-50%, -50%) scale(0); /* Fora da tela e escalado */
@@ -208,7 +210,7 @@ button{
     font-size: 24px;
     background: none;
     border: none;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 

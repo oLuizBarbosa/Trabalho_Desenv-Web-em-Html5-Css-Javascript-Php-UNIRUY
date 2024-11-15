@@ -41,7 +41,7 @@
                 print "<div class='card-tarefa' id='tarefa-".$tarefa['id']."' style='margin-bottom: 2em'>";
                 print "<strong><h2>" 
                     .$tarefa['nome'] . "</h2></strong> " .$tarefa['descricao'] .
-                    "<button class='btn btn-danger' onclick='excluirTarefa(" . $tarefa['id'] . "," . $tarefa['id_lista_tarefa'] . ")'>Excluir Tarefa</button> 
+                    "<div class='col'><button class='btn btn-danger' onclick='excluirTarefa(" . $tarefa['id'] . "," . $tarefa['id_lista_tarefa'] . ")'>Excluir Tarefa</button> 
                     <button class='checkbtn' onclick='checkIcon(" . $tarefa['id'] . ",\"" . $tarefa['situacao'] . "\")' id='check-" . $tarefa['id'] . "'>";
                     if($tarefa['situacao']=='pendente'){
                         print "⬜";
@@ -49,7 +49,7 @@
                         print"✅";
                     }
                     
-                    print"</button></div>";
+                    print"</button> </div></div>";
             } 
         } else {
             print "<p>Nenhuma tarefa encontrada para esta lista.</p>";
