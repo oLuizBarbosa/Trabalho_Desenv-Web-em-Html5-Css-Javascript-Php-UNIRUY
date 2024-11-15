@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(23deg, rgb(215, 247, 240) 0%, rgba(126,223,205,1) 100%);
+    height: 100vh;
+    
+}
+.barra-topo{
+    font-family: Albert_Sans;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.dashboard {
+    display: flex; 
+    height: 90vh; 
+    
+}
+
+.conteudo-principal {
+    flex: 3; 
+    padding: 40px;
+    background-color: #f4f4f400;
+}
+
+
+.barra-lateral {
+    display: flex;
+    flex: 1; 
+    padding: 20px;
+    background-color: transparent;
+    height: 90vh;
+    box-sizing: border-box;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.barra-tarefas {
+    display: flex;
+    flex: 30; 
+    padding: 20px;
+    background-color: transparent;
+    height: 90vh;
+    box-sizing: border-box;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: column;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+
+.listas-de-tarefa{
+    display: flex;
+    background-color: #ffffff41;
+    border-radius: 15px;
+    padding: 45px;
+    height: 100vh;
+    flex-direction: column;
+    justify-items: center;
+}
+/*.listas-com-tarefa{
+    display: inline-flex;
+    background-color: #ffffff41;
+    border-radius: 15px;
+    padding: 15px;
+    height: 80vh;
+    flex-direction: column;
+    justify-items: space-around;
+    margin-bottom: 4em;
+}*/
+.card-lista{
+    height: 10vh;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.377);
+    border: 0;
+    margin-top: 0.7em;
+    
+}
+.card-tarefa{
+    display: flex;
+    justify-items: center;
+    align-items: start;
+    border-radius: 15px;
+    margin-top: 0.7em;
+    padding: 1em;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.377);
+}
+.card-lista:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+h3 {
+    font-family: Afacade;
+    font-weight: bold;
+    margin-top: 0;
+}
+h2, p{
+    font-family: Albert_Sans;
+
+}
+button{
+    font-family: Albert_Sans;
+}
+
+
+
+
+.menu-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 30em;
+    background-color: #8b8b8b7e;
+    color: rgb(0, 0, 0);
+    padding-top: 60px;
+    transform: translate(-50%, -50%) scale(0); /* Fora da tela e escalado */
+    transition: transform 0.3s ease; /* Animação de zoom */
+    z-index: 1000;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.menu-overlay ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-overlay ul li {
+    padding: 10px 10px;
+
+}
+.div-forms{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.menu-overlay ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-overlay ul li a:hover {
+    color: #ddd;
+}
+/*estilo botao check*/
+.checkbtn{
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+/* Botão para fechar o menu */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Botão para abrir o menu */
+.open-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Classe ativa para abrir o menu */
+.menu-overlay.active {
+    transform: translate(-50%, -50%) scale(1); /* Exibe o menu no centro com um zoom suave */
+}
+
+@font-face {
+    font-family: "Afacade";
+    src: url('../fonts/Afacad/Afacad-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Albert_Sans";
+    src: url('../fonts/Albert_Sans/AlbertSans-VariableFont_wght.ttf');
+}
+@media screen and (max-width: 768px){
+
+}

@@ -1,0 +1,93 @@
+h1 {
+    font-family: Afacade;
+    background-image: linear-gradient(180deg, #00ffcc, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5em;
+}
+p{
+    color: #efefef;
+    font-family: Afacade;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color: #7EFFE5;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    background-color: #020202;
+}
+
+.label-central{
+    background-color: #f8f8f8;
+    font-family: Afacade;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 20em 20px  rgba(255, 255, 255, 0.274);
+}
+.bt-confirmar{
+    height: 2em;
+    font-family: Afacade;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 auto;
+    color: #efefef;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+    background-color: #7EFFE5;
+    border-radius: 10px;
+}
+.bt-confirmar:hover{
+    background-color: #68d3bd;
+}
+
+.card-central{
+    background-color: transparent; /*rgba(255, 255, 255, 0.027);*/
+    width: 50vh;
+}
+
+.pulse:hover {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+  
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.01);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.01);
+
+  }
+}
+
+
+@font-face {
+    font-family: "Afacade";
+    src: url('../fonts/Afacad/Afacad-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Albert_Sans";
+    src: url('../fonts/Albert_Sans/AlbertSans-VariableFont_wght.ttf');
+}
