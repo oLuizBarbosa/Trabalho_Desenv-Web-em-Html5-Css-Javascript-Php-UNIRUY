@@ -55,6 +55,16 @@ body {
     overflow:hidden;
     overflow-y: scroll;
 }
+.btn-nova-tarefa{
+    display: flex;
+    flex: 30; 
+    padding: 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow:hidden;
+    overflow-y: scroll;
+}
 .listas-de-tarefa{
     display: flex;
     background-color: #ffffff41;
