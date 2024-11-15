@@ -27,7 +27,7 @@
             </div>
             </div>";
         print "<div class='barra-tarefas'>
-        <h2 style='text-align: center; max-height: 30%;'>Minhas Tarefas</h2>
+        <h2 style='text-align: center; max-height: 30%; font-weight:bold; font-size:23px'>Minhas Tarefas</h2>
         <button class='open-btn' onclick= 'abrirMenu()'>🖊 Nova Tarefa</button>";
         
         if ($tarefas) {
