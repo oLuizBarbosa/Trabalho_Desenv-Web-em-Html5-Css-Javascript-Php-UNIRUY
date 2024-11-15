@@ -15,7 +15,7 @@
                 <h2 style="text-align: center; max-height: 100%;">Minhas Listas</h2>
                 <div class="listas-de-tarefa">
                     <?php
-                        print"<div class='menu-overlay' id='menuCriarLista' style='height: 25vh;'>
+                        print"<div class='menu-overlay' id='menuCriarLista' style='height: 15em;'>
                         <button class='close-btn' onclick='fecharMenuLista()'>×</button>
                         <h3>CRIAR NOVA LISTA</h3>
                         <ul>
