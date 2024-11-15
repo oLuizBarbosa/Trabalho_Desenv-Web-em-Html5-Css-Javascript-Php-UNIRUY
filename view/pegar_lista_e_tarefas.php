@@ -27,10 +27,8 @@
             </div>
             </div>";
         print "<div class='barra-tarefas'>
-            
         <h2 style='text-align: center; max-height: 30%;'>Minhas Tarefas</h2>
-        <button class='open-btn' onclick=
-        'abrirMenu()'>🖊 Nova Tarefa</button>";
+        <button class='open-btn' onclick= 'abrirMenu()'>🖊 Nova Tarefa</button>";
         
         if ($tarefas) {
             include "../controller/pegar_nome_lista.php";
