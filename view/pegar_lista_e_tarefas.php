@@ -21,7 +21,7 @@
                 <li><input class='form-control' type='text' placeholder='Nome' name='nome_tarefa' id='nome_tarefa' required></li>
                 <li><textarea class='form-control' placeholder='Descrição' name='descricao_tarefa' id='descricao_tarefa' required></textarea></li>
                 <li><input class='form-control' type='date' placeholder='Data final' name='data_final' id='data_final' required></li>
-                <button class='btn' onclick='criarTarefa(".$id_lista.")'>Confirmar</button>
+                <button class='conf-btn' onclick='criarTarefa(".$id_lista.")'>Confirmar</button>
                 </div>
             </ul>
             </div>

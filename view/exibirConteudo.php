@@ -22,7 +22,7 @@
                         <div id = 'formLista'>
                             <div class='div-forms'>
                             <li><input class='form-control' type='text' placeholder='Nome' name='nome_lista' id='nome_lista' required></li>
-                            <button class='btn' onclick='criarLista(".$_SESSION['user_id'].")'>Confirmar</button>
+                            <button class='conf-btn' onclick='criarLista(".$_SESSION['user_id'].")'>Confirmar</button>
                             </div>
                         </ul>
                         </div>";

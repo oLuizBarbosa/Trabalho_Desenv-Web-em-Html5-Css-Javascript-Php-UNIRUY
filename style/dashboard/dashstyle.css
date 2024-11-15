@@ -112,7 +112,21 @@ button{
     background: linear-gradient(rgb(158, 158, 158), rgb(184, 184, 184));
     border-radius: 15px;
 }
-
+.conf-btn {
+    border: 0;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.144);
+    display:inline-block;
+}
+.conf-btn:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+}
 
 
 .menu-overlay {
