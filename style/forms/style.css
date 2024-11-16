@@ -14,6 +14,9 @@ a{
     text-decoration: none;
     color: #7EFFE5;
 }
+.p-tarefas{
+  margin: bottom 5px;
+}
 
 .principal{
     width: 100%;

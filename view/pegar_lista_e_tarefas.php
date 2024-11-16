@@ -40,7 +40,10 @@
             foreach ($tarefas as $tarefa) {
                 print "<div class='card-tarefa' id='tarefa-".$tarefa['id']."' style='margin-bottom: 2em'>";
                 print "<strong><h2>" 
-                    .$tarefa['nome'] . "</h2></strong> " .$tarefa['descricao'] .
+                    .$tarefa['nome'] ."</h2></strong> " .$tarefa['descricao'] . 
+                    "<br>"."</br>".
+                    "<ul <li>".'🗓️ Data de criação: '.$tarefa['data_criacao']. "</li>". 
+                    "<li>".'🗓️ Data estimada para conclusão: '.$tarefa['data_conclusao'] ."</li> </ul>". 
                     "<div class='col'><button class='btn btn-danger' onclick='excluirTarefa(" . $tarefa['id'] . "," . $tarefa['id_lista_tarefa'] . ")'>Excluir Tarefa</button> 
                     <button class='checkbtn' onclick='checkIcon(" . $tarefa['id'] . ",\"" . $tarefa['situacao'] . "\")' id='check-" . $tarefa['id'] . "'>";
                     if($tarefa['situacao']=='pendente'){

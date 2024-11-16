@@ -7,6 +7,13 @@ body {
     overflow: hidden;
     
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding-left: 0px;
+}
 .barra-topo{
     font-family: Albert_Sans;
     height: 9vh;
@@ -49,12 +56,15 @@ body {
     flex: 30; 
     padding: 20px;
     background-color: transparent;
-    height: 100vh;
+    height: 90vh;
     box-sizing: border-box;
     justify-items: center;
     flex-direction: column;
     overflow:hidden;
     overflow-y: scroll;
+    word-wrap: break-word;
+    word-break: break-word; 
+    white-space: normal; 
 }
 .btn-nova-tarefa{
     display: flex;
@@ -239,10 +249,10 @@ button{
     font-family: "Albert_Sans";
     src: url('../fonts/Albert_Sans/AlbertSans-VariableFont_wght.ttf');
 }
-/*@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .menu-overlay{
         width:100%;
         flex-direction:column;
     }
 
-}*/
+}
