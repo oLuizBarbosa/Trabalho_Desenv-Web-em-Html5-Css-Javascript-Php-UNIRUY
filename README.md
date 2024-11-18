@@ -9,7 +9,7 @@ Excluir tarefas: Remova tarefas que não são mais necessárias.
 
 🛠️ Tecnologias Utilizadas
 Frontend:
-HTML5, CSS3, JavaScript
+CSS3, JavaScript
 Backend: PHP
 Banco de Dados: MYSQL
 Editor de código: VS Code
