@@ -16,11 +16,14 @@ Editor de código: VS Code
 Controle de versão: GitHub
 
 🌐 Deploy
-  
+http://webtask.dkmariano.com/
 
 
 ✍️ Autores
 Luiz Fernando Ferreira Barbosa;
 João Victor Miranda Carvalho;
-Guilherme Miguel Santa Rosa;
-Romão Ceuta;
+Guilherme Miguel Neto Santa Rosa;
+Romão Caldeira Ceuta da Silva;
+
+Apresentação com Slides:
+https://gamma.app/docs/Trabalho-de-DesenvWeb-q6srbphmn59yzee?mode=doc
